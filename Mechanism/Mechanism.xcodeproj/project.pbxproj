@@ -15,6 +15,14 @@
 		5480C2941F62288F00B276AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5480C2921F62288F00B276AF /* LaunchScreen.storyboard */; };
 		5480C29F1F62289000B276AF /* MechanismTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C29E1F62289000B276AF /* MechanismTests.m */; };
 		5480C2AA1F62289000B276AF /* MechanismUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2A91F62289000B276AF /* MechanismUITests.m */; };
+		5480C2BB1F622D7E00B276AF /* MCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2BA1F622D7E00B276AF /* MCBaseViewController.m */; };
+		5480C2BE1F622DAB00B276AF /* MCBaseBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2BD1F622DAB00B276AF /* MCBaseBarController.m */; };
+		5480C2C11F622DD300B276AF /* MCBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2C01F622DD300B276AF /* MCBaseNavigationController.m */; };
+		5480C2C71F622FC700B276AF /* MCAdminsterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2C61F622FC700B276AF /* MCAdminsterViewController.m */; };
+		5480C2CA1F622FD900B276AF /* MCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2C91F622FD900B276AF /* MCMeViewController.m */; };
+		5480C2CD1F622FF200B276AF /* MCToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2CC1F622FF200B276AF /* MCToolViewController.m */; };
+		5480C2D11F6233F800B276AF /* UIColor+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2D01F6233F800B276AF /* UIColor+extension.m */; };
+		5480C2D41F62341200B276AF /* NSString+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2D31F62341200B276AF /* NSString+extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,23 @@
 		5480C2A51F62289000B276AF /* MechanismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MechanismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5480C2A91F62289000B276AF /* MechanismUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MechanismUITests.m; sourceTree = "<group>"; };
 		5480C2AB1F62289000B276AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5480C2B91F622D7E00B276AF /* MCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBaseViewController.h; sourceTree = "<group>"; };
+		5480C2BA1F622D7E00B276AF /* MCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBaseViewController.m; sourceTree = "<group>"; };
+		5480C2BC1F622DAB00B276AF /* MCBaseBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBaseBarController.h; sourceTree = "<group>"; };
+		5480C2BD1F622DAB00B276AF /* MCBaseBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBaseBarController.m; sourceTree = "<group>"; };
+		5480C2BF1F622DD300B276AF /* MCBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBaseNavigationController.h; sourceTree = "<group>"; };
+		5480C2C01F622DD300B276AF /* MCBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBaseNavigationController.m; sourceTree = "<group>"; };
+		5480C2C51F622FC700B276AF /* MCAdminsterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAdminsterViewController.h; sourceTree = "<group>"; };
+		5480C2C61F622FC700B276AF /* MCAdminsterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAdminsterViewController.m; sourceTree = "<group>"; };
+		5480C2C81F622FD900B276AF /* MCMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMeViewController.h; sourceTree = "<group>"; };
+		5480C2C91F622FD900B276AF /* MCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMeViewController.m; sourceTree = "<group>"; };
+		5480C2CB1F622FF200B276AF /* MCToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCToolViewController.h; sourceTree = "<group>"; };
+		5480C2CC1F622FF200B276AF /* MCToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCToolViewController.m; sourceTree = "<group>"; };
+		5480C2CF1F6233F800B276AF /* UIColor+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+extension.h"; sourceTree = "<group>"; };
+		5480C2D01F6233F800B276AF /* UIColor+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+extension.m"; sourceTree = "<group>"; };
+		5480C2D21F62341200B276AF /* NSString+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+extension.h"; sourceTree = "<group>"; };
+		5480C2D31F62341200B276AF /* NSString+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+extension.m"; sourceTree = "<group>"; };
+		5480C2D61F6234EE00B276AF /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = Expand/Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +126,11 @@
 		5480C2831F62288F00B276AF /* Mechanism */ = {
 			isa = PBXGroup;
 			children = (
+				5480C2B81F622D5A00B276AF /* MCBase */,
+				5480C2CE1F6233CD00B276AF /* Expand */,
+				5480C2C21F622F7B00B276AF /* MCAdminister */,
+				5480C2C31F622F7B00B276AF /* MCMe */,
+				5480C2C41F622F7B00B276AF /* MCTool */,
 				5480C2871F62288F00B276AF /* AppDelegate.h */,
 				5480C2881F62288F00B276AF /* AppDelegate.m */,
 				5480C28A1F62288F00B276AF /* ViewController.h */,
@@ -117,6 +147,7 @@
 		5480C2841F62288F00B276AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5480C2D61F6234EE00B276AF /* Header.h */,
 				5480C2851F62288F00B276AF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +169,57 @@
 				5480C2AB1F62289000B276AF /* Info.plist */,
 			);
 			path = MechanismUITests;
+			sourceTree = "<group>";
+		};
+		5480C2B81F622D5A00B276AF /* MCBase */ = {
+			isa = PBXGroup;
+			children = (
+				5480C2B91F622D7E00B276AF /* MCBaseViewController.h */,
+				5480C2BA1F622D7E00B276AF /* MCBaseViewController.m */,
+				5480C2BC1F622DAB00B276AF /* MCBaseBarController.h */,
+				5480C2BD1F622DAB00B276AF /* MCBaseBarController.m */,
+				5480C2BF1F622DD300B276AF /* MCBaseNavigationController.h */,
+				5480C2C01F622DD300B276AF /* MCBaseNavigationController.m */,
+			);
+			path = MCBase;
+			sourceTree = "<group>";
+		};
+		5480C2C21F622F7B00B276AF /* MCAdminister */ = {
+			isa = PBXGroup;
+			children = (
+				5480C2C51F622FC700B276AF /* MCAdminsterViewController.h */,
+				5480C2C61F622FC700B276AF /* MCAdminsterViewController.m */,
+			);
+			path = MCAdminister;
+			sourceTree = "<group>";
+		};
+		5480C2C31F622F7B00B276AF /* MCMe */ = {
+			isa = PBXGroup;
+			children = (
+				5480C2C81F622FD900B276AF /* MCMeViewController.h */,
+				5480C2C91F622FD900B276AF /* MCMeViewController.m */,
+			);
+			path = MCMe;
+			sourceTree = "<group>";
+		};
+		5480C2C41F622F7B00B276AF /* MCTool */ = {
+			isa = PBXGroup;
+			children = (
+				5480C2CB1F622FF200B276AF /* MCToolViewController.h */,
+				5480C2CC1F622FF200B276AF /* MCToolViewController.m */,
+			);
+			path = MCTool;
+			sourceTree = "<group>";
+		};
+		5480C2CE1F6233CD00B276AF /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				5480C2CF1F6233F800B276AF /* UIColor+extension.h */,
+				5480C2D01F6233F800B276AF /* UIColor+extension.m */,
+				5480C2D21F62341200B276AF /* NSString+extension.h */,
+				5480C2D31F62341200B276AF /* NSString+extension.m */,
+			);
+			path = Expand;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,9 +356,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5480C2CA1F622FD900B276AF /* MCMeViewController.m in Sources */,
 				5480C28C1F62288F00B276AF /* ViewController.m in Sources */,
 				5480C2891F62288F00B276AF /* AppDelegate.m in Sources */,
+				5480C2CD1F622FF200B276AF /* MCToolViewController.m in Sources */,
+				5480C2C11F622DD300B276AF /* MCBaseNavigationController.m in Sources */,
+				5480C2D41F62341200B276AF /* NSString+extension.m in Sources */,
+				5480C2D11F6233F800B276AF /* UIColor+extension.m in Sources */,
+				5480C2C71F622FC700B276AF /* MCAdminsterViewController.m in Sources */,
 				5480C2861F62288F00B276AF /* main.m in Sources */,
+				5480C2BB1F622D7E00B276AF /* MCBaseViewController.m in Sources */,
+				5480C2BE1F622DAB00B276AF /* MCBaseBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +516,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L9YXDQ3FU6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Mechanism/Header.h";
 				INFOPLIST_FILE = Mechanism/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mechanism;
@@ -438,6 +530,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L9YXDQ3FU6;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Mechanism/Header.h";
 				INFOPLIST_FILE = Mechanism/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mechanism;

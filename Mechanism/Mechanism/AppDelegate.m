@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MCBaseBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    MCBaseBarController *mcBar = [[MCBaseBarController alloc]init];
+    self.window.rootViewController = mcBar;
     return YES;
 }
 
