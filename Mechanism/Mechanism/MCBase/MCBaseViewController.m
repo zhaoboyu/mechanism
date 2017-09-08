@@ -16,8 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
 }
-
+- (void)createBack{
+    UIImage *back = [UIImage imageNamed:@"back"];
+    
+    self.navigationItem.leftBarButtonItem= [[UIBarButtonItem alloc]initWithImage:back style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
+    [self.navigationItem.leftBarButtonItem setTintColor:[UIColor colorWithHexString:@"#6d6d6d"]];
+}
+- (void)backAction{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 @end

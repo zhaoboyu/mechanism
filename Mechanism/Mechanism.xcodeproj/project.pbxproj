@@ -24,6 +24,8 @@
 		5480C2D11F6233F800B276AF /* UIColor+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2D01F6233F800B276AF /* UIColor+extension.m */; };
 		5480C2D41F62341200B276AF /* NSString+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2D31F62341200B276AF /* NSString+extension.m */; };
 		5480C2DA1F624CD800B276AF /* DataAfn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2D91F624CD800B276AF /* DataAfn.m */; };
+		5480C2E41F62C55E00B276AF /* MCDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2E31F62C55E00B276AF /* MCDynamicViewController.m */; };
+		5480C2EA1F62DB1000B276AF /* MCDynamicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2E91F62DB1000B276AF /* MCDynamicCell.m */; };
 		5F0A18B47C2A43775294A5A9 /* libPods-Mechanism.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DB68C18D6700CAE08E6ABF /* libPods-Mechanism.a */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +82,10 @@
 		5480C2D71F62417500B276AF /* Mechanism-prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mechanism-prefix.h"; sourceTree = "<group>"; };
 		5480C2D81F624CD800B276AF /* DataAfn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAfn.h; sourceTree = "<group>"; };
 		5480C2D91F624CD800B276AF /* DataAfn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAfn.m; sourceTree = "<group>"; };
+		5480C2E21F62C55E00B276AF /* MCDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDynamicViewController.h; sourceTree = "<group>"; };
+		5480C2E31F62C55E00B276AF /* MCDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDynamicViewController.m; sourceTree = "<group>"; };
+		5480C2E81F62DB1000B276AF /* MCDynamicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDynamicCell.h; sourceTree = "<group>"; };
+		5480C2E91F62DB1000B276AF /* MCDynamicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDynamicCell.m; sourceTree = "<group>"; };
 		B1667A628BE1F6C6599EEB5F /* Pods-Mechanism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mechanism.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mechanism/Pods-Mechanism.release.xcconfig"; sourceTree = "<group>"; };
 		C0AB6B9315BC12DBCBC665B1 /* Pods-Mechanism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mechanism.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mechanism/Pods-Mechanism.debug.xcconfig"; sourceTree = "<group>"; };
 		D0DB68C18D6700CAE08E6ABF /* libPods-Mechanism.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mechanism.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -236,6 +242,10 @@
 			children = (
 				5480C2CB1F622FF200B276AF /* MCToolViewController.h */,
 				5480C2CC1F622FF200B276AF /* MCToolViewController.m */,
+				5480C2E21F62C55E00B276AF /* MCDynamicViewController.h */,
+				5480C2E31F62C55E00B276AF /* MCDynamicViewController.m */,
+				5480C2E81F62DB1000B276AF /* MCDynamicCell.h */,
+				5480C2E91F62DB1000B276AF /* MCDynamicCell.m */,
 			);
 			path = MCTool;
 			sourceTree = "<group>";
@@ -443,9 +453,11 @@
 				5480C2C11F622DD300B276AF /* MCBaseNavigationController.m in Sources */,
 				5480C2D41F62341200B276AF /* NSString+extension.m in Sources */,
 				5480C2D11F6233F800B276AF /* UIColor+extension.m in Sources */,
+				5480C2E41F62C55E00B276AF /* MCDynamicViewController.m in Sources */,
 				5480C2C71F622FC700B276AF /* MCAdminsterViewController.m in Sources */,
 				5480C2861F62288F00B276AF /* main.m in Sources */,
 				5480C2BB1F622D7E00B276AF /* MCBaseViewController.m in Sources */,
+				5480C2EA1F62DB1000B276AF /* MCDynamicCell.m in Sources */,
 				5480C2BE1F622DAB00B276AF /* MCBaseBarController.m in Sources */,
 				5480C2DA1F624CD800B276AF /* DataAfn.m in Sources */,
 			);

@@ -18,7 +18,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    
+         [self.navigationController setNavigationBarHidden:YES animated:YES];
+    UIImageView *backView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, def_width, 350*scaleH)];
+    backView.image = [UIImage imageNamed:@"banner"];
+    [self.view addSubview:backView];
 }
 
-
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    
+    
+    return UIStatusBarStyleLightContent;
+}
 @end
