@@ -23,6 +23,8 @@
 		5480C2CD1F622FF200B276AF /* MCToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2CC1F622FF200B276AF /* MCToolViewController.m */; };
 		5480C2D11F6233F800B276AF /* UIColor+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2D01F6233F800B276AF /* UIColor+extension.m */; };
 		5480C2D41F62341200B276AF /* NSString+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2D31F62341200B276AF /* NSString+extension.m */; };
+		5480C2DA1F624CD800B276AF /* DataAfn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2D91F624CD800B276AF /* DataAfn.m */; };
+		5F0A18B47C2A43775294A5A9 /* libPods-Mechanism.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DB68C18D6700CAE08E6ABF /* libPods-Mechanism.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +77,12 @@
 		5480C2D01F6233F800B276AF /* UIColor+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+extension.m"; sourceTree = "<group>"; };
 		5480C2D21F62341200B276AF /* NSString+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+extension.h"; sourceTree = "<group>"; };
 		5480C2D31F62341200B276AF /* NSString+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+extension.m"; sourceTree = "<group>"; };
-		5480C2D61F6234EE00B276AF /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = Expand/Header.h; sourceTree = "<group>"; };
+		5480C2D71F62417500B276AF /* Mechanism-prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mechanism-prefix.h"; sourceTree = "<group>"; };
+		5480C2D81F624CD800B276AF /* DataAfn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAfn.h; sourceTree = "<group>"; };
+		5480C2D91F624CD800B276AF /* DataAfn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAfn.m; sourceTree = "<group>"; };
+		B1667A628BE1F6C6599EEB5F /* Pods-Mechanism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mechanism.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mechanism/Pods-Mechanism.release.xcconfig"; sourceTree = "<group>"; };
+		C0AB6B9315BC12DBCBC665B1 /* Pods-Mechanism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mechanism.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mechanism/Pods-Mechanism.debug.xcconfig"; sourceTree = "<group>"; };
+		D0DB68C18D6700CAE08E6ABF /* libPods-Mechanism.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mechanism.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F0A18B47C2A43775294A5A9 /* libPods-Mechanism.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +111,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1992C647D14FC293DA306F4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0DB68C18D6700CAE08E6ABF /* libPods-Mechanism.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AFB635BDBAA7AF7C03EBB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0AB6B9315BC12DBCBC665B1 /* Pods-Mechanism.debug.xcconfig */,
+				B1667A628BE1F6C6599EEB5F /* Pods-Mechanism.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5480C2781F62288F00B276AF = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +135,8 @@
 				5480C29D1F62289000B276AF /* MechanismTests */,
 				5480C2A81F62289000B276AF /* MechanismUITests */,
 				5480C2821F62288F00B276AF /* Products */,
+				1AFB635BDBAA7AF7C03EBB71 /* Pods */,
+				1992C647D14FC293DA306F4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,8 +174,8 @@
 		5480C2841F62288F00B276AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5480C2D61F6234EE00B276AF /* Header.h */,
 				5480C2851F62288F00B276AF /* main.m */,
+				5480C2D71F62417500B276AF /* Mechanism-prefix.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,6 +201,8 @@
 		5480C2B81F622D5A00B276AF /* MCBase */ = {
 			isa = PBXGroup;
 			children = (
+				5480C2D81F624CD800B276AF /* DataAfn.h */,
+				5480C2D91F624CD800B276AF /* DataAfn.m */,
 				5480C2B91F622D7E00B276AF /* MCBaseViewController.h */,
 				5480C2BA1F622D7E00B276AF /* MCBaseViewController.m */,
 				5480C2BC1F622DAB00B276AF /* MCBaseBarController.h */,
@@ -229,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5480C2AE1F62289000B276AF /* Build configuration list for PBXNativeTarget "Mechanism" */;
 			buildPhases = (
+				4180F8680CE7BF85B734E872 /* [CP] Check Pods Manifest.lock */,
 				5480C27D1F62288F00B276AF /* Sources */,
 				5480C27E1F62288F00B276AF /* Frameworks */,
 				5480C27F1F62288F00B276AF /* Resources */,
+				05947137CAED04B87C7982CB /* [CP] Embed Pods Frameworks */,
+				391D0342E8508F10A65384C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,6 +383,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05947137CAED04B87C7982CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mechanism/Pods-Mechanism-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		391D0342E8508F10A65384C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mechanism/Pods-Mechanism-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4180F8680CE7BF85B734E872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5480C27D1F62288F00B276AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -367,6 +447,7 @@
 				5480C2861F62288F00B276AF /* main.m in Sources */,
 				5480C2BB1F622D7E00B276AF /* MCBaseViewController.m in Sources */,
 				5480C2BE1F622DAB00B276AF /* MCBaseBarController.m in Sources */,
+				5480C2DA1F624CD800B276AF /* DataAfn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,11 +594,12 @@
 		};
 		5480C2AF1F62289000B276AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0AB6B9315BC12DBCBC665B1 /* Pods-Mechanism.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L9YXDQ3FU6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Mechanism/Header.h";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Mechanism/Mechanism-prefix.h";
 				INFOPLIST_FILE = Mechanism/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mechanism;
@@ -527,11 +609,12 @@
 		};
 		5480C2B01F62289000B276AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1667A628BE1F6C6599EEB5F /* Pods-Mechanism.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L9YXDQ3FU6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Mechanism/Header.h";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Mechanism/Mechanism-prefix.h";
 				INFOPLIST_FILE = Mechanism/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mechanism;
@@ -604,6 +687,7 @@
 				5480C2B01F62289000B276AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5480C2B11F62289000B276AF /* Build configuration list for PBXNativeTarget "MechanismTests" */ = {
 			isa = XCConfigurationList;
@@ -612,6 +696,7 @@
 				5480C2B31F62289000B276AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5480C2B41F62289000B276AF /* Build configuration list for PBXNativeTarget "MechanismUITests" */ = {
 			isa = XCConfigurationList;
@@ -620,6 +705,7 @@
 				5480C2B61F62289000B276AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

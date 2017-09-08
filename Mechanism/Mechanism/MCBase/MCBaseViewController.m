@@ -7,8 +7,7 @@
 //
 
 #import "MCBaseViewController.h"
-#import "UIColor+extension.h"
-#import "NSString+extension.h"
+
 @interface MCBaseViewController ()
 
 @end

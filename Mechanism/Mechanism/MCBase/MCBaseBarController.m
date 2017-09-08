@@ -7,7 +7,7 @@
 //
 
 #import "MCBaseBarController.h"
-#import "UIColor+extension.h"
+
 @interface MCBaseBarController ()<UINavigationControllerDelegate>
 
 @end
@@ -17,12 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tabBar.translucent = NO;
-    self.tabBar.tintColor = [UIColor colorWithHexString:@"#93e1fd"];
+    self.tabBar.tintColor = BlueColor;
     [self initViewControllers];
 }
 - (void) initViewControllers{
-    
-    
+
     MCAdminsterViewController *advc = [[MCAdminsterViewController alloc] init];
     self.AdminNavigationVC = [self createController:advc];
     
