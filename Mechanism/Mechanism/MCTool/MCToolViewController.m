@@ -19,11 +19,16 @@
   
     self.view.backgroundColor = BackColor;
     
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
-   self.navigationController.navigationBar.barTintColor = [UIColor greenColor];
-    
     [self initView];
     
+}
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+       [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+     [self.navigationController setNavigationBarHidden:NO animated:YES];
 }
 - (void)initView{
     UIView *backView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, def_width, 350*scaleH)];
@@ -35,6 +40,9 @@
         UIView *roomView = [[UIView alloc]initWithFrame:frame];
         roomView.backgroundColor = [UIColor whiteColor];
         
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapView:)];
+        roomView.userInteractionEnabled = YES;
+        [roomView addGestureRecognizer:tap];
         UIImageView *imageV = [[UIImageView alloc]initWithFrame:CGRectMake(frame.size.width/3, frame.size.height/6, frame.size.width/3, frame.size.height/3)];
         imageV.backgroundColor = [UIColor blackColor];
         imageV.image = [UIImage imageNamed:imageName];
@@ -62,7 +70,38 @@
         }
     }
 }
-
+- (void)tapView:(UITapGestureRecognizer *)sender{
+    switch (sender.self.view.tag -9999) {
+        case 0:
+            
+            break;
+        case 1:
+            
+            break;
+        case 2:
+            
+            break;
+        case 3:
+            
+            break;
+        case 4:
+            
+            break;
+        case 5:
+            
+            break;
+        case 6:
+            
+            break;
+        case 7:
+            
+            break;
+            
+            
+        default:
+            break;
+    }
+}
 - (UIStatusBarStyle)preferredStatusBarStyle {
   
     
