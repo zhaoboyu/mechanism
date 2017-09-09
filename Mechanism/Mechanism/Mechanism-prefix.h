@@ -12,6 +12,7 @@
 
 #import "UIColor+extension.h"
 #import "NSString+extension.h"
+#import "UIView+extension.h"
 
 #import "DataAfn.h"
 //颜色
@@ -24,4 +25,5 @@
 #define def_width [UIScreen mainScreen].bounds.size.width
 #define def_height [UIScreen mainScreen].bounds.size.height
 
+#import <UIImageView+WebCache.h>
 #endif /* Mechanism_prefix_h */

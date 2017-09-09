@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DynamicModel.h"
 @interface MCDynamicCell : UITableViewCell
-
+- (void)selectDynamic:(DynamicModel *)dynamic;
 @end

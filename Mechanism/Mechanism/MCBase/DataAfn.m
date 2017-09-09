@@ -49,7 +49,7 @@
 +(void)POST:(NSString *)url params:(NSDictionary *)params
     success:(XYResponseSuccess)success fail:(XYResponseFail)fail{
     
-    AFHTTPSessionManager *manager = [DataAfn managerWithBaseURL:@"http://xincafe.dlab.com.cn" sessionConfiguration:NO];
+    AFHTTPSessionManager *manager = [DataAfn managerWithBaseURL:@"http://www.8lingling.com/ms" sessionConfiguration:NO];
 //    AFHTTPSessionManager *manager = [DataAfn managerWithBaseURL:@"http://115.28.12.165" sessionConfiguration:NO];
 
     [manager POST:url parameters:params progress:^(NSProgress * _Nonnull uploadProgress) {
