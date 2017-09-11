@@ -27,5 +27,13 @@
 - (void)backAction{
     [self.navigationController popViewControllerAnimated:YES];
 }
+- (NSString *)time:(NSString *)timeStampString{
+    NSTimeInterval interval=[timeStampString doubleValue] / 1000.0;
+    NSDate *date = [NSDate dateWithTimeIntervalSince1970:interval];
+    NSDateFormatter *objDateformat = [[NSDateFormatter alloc] init];
+    [objDateformat setDateFormat:@"yyyy-MM-dd"];
+    NSString * timeStr = [NSString stringWithFormat:@"%@",[objDateformat stringFromDate: date]];
+    return timeStr;
+}
 
 @end

@@ -13,6 +13,8 @@
 #import "UIColor+extension.h"
 #import "NSString+extension.h"
 #import "UIView+extension.h"
+#import <MBProgressHUD.h>
+#import <MJRefresh.h>
 
 #import "DataAfn.h"
 //颜色
@@ -21,6 +23,9 @@
 //长宽比例
 #define scaleW [UIScreen mainScreen].bounds.size.width/375/2
 #define scaleH [UIScreen mainScreen].bounds.size.height/667/2
+
+#define  kLayoutScreenWidth             ([UIScreen mainScreen].bounds.size.width)
+#define  kLayoutScreenHeight            ([UIScreen mainScreen].bounds.size.height)
 
 #define def_width [UIScreen mainScreen].bounds.size.width
 #define def_height [UIScreen mainScreen].bounds.size.height

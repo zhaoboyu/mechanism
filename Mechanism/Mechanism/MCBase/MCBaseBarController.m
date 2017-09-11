@@ -40,10 +40,12 @@
 -(void)setUptabBarItem
 {
     
-    self.AdminNavigationVC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"管理" image:[UIImage imageNamed:@"icon_normal_gongzuotai"] selectedImage:[UIImage imageNamed:@"icon_pressed_gongzuotai"]];
+   
+    self.AdminNavigationVC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"管理" image:[UIImage imageNamed:@"mech"] tag:0];
     
-    self.ToolNavigationVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"工具"image:[UIImage imageNamed:@"icon_normal_qicheguan"]  selectedImage:[UIImage imageNamed:@"icon_pressed_qicheguan"]];
-    self.MeNavigationVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"我的" image:[UIImage imageNamed:@"icon_normal_kehuguanli"]  selectedImage:[UIImage imageNamed:@"icon_pressed_kehuguanli"]];
+    self.ToolNavigationVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"工具"image:[UIImage imageNamed:@"tool"]  tag:1];
+    
+    self.MeNavigationVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"我的" image:[UIImage imageNamed:@"me"]  tag:2];
   
 }
 - (MCBaseNavigationController *) createController:(UIViewController *) controller

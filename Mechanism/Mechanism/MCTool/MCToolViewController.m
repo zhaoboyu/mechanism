@@ -55,7 +55,7 @@
         
     };
     
-    NSArray *imageArr = [NSArray arrayWithObjects:@"",@"notice",@"activity",@"qrcode",@"lingpan",@"living",@"yuyue",@"signin", nil];
+    NSArray *imageArr = [NSArray arrayWithObjects:@"ac",@"notice",@"activity",@"qrcode",@"lingpan",@"living",@"yuyue",@"signin", nil];
     NSArray *nameArr = [NSArray arrayWithObjects:@"动态",@"公告",@"活动",@"二维码报名",@"铃盘共享",@"直播",@"预约记录",@"签到记录", nil];
     for (int i=0; i < 9; i ++) {
         if (i==8) {

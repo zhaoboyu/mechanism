@@ -10,4 +10,5 @@
 
 @interface MCBaseViewController : UIViewController
 - (void)createBack;
+- (NSString *)time:(NSString *)timeStampString;
 @end

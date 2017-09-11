@@ -19,7 +19,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"动态详情";
   [self createBack];
+ 
+   
 }
-
 
 @end

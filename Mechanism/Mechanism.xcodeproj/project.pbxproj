@@ -29,6 +29,7 @@
 		5480C2FF1F6396A600B276AF /* DynamicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C2FE1F6396A600B276AF /* DynamicModel.m */; };
 		5480C3021F639D6600B276AF /* UIView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C3011F639D6600B276AF /* UIView+extension.m */; };
 		5480C3051F63A64500B276AF /* MCDySecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C3041F63A64500B276AF /* MCDySecViewController.m */; };
+		5480C3691F6626C200B276AF /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480C3681F6626C200B276AF /* NSString+Check.m */; };
 		5F0A18B47C2A43775294A5A9 /* libPods-Mechanism.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DB68C18D6700CAE08E6ABF /* libPods-Mechanism.a */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +96,8 @@
 		5480C3011F639D6600B276AF /* UIView+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extension.m"; sourceTree = "<group>"; };
 		5480C3031F63A64500B276AF /* MCDySecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDySecViewController.h; sourceTree = "<group>"; };
 		5480C3041F63A64500B276AF /* MCDySecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDySecViewController.m; sourceTree = "<group>"; };
+		5480C3671F6626C200B276AF /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
+		5480C3681F6626C200B276AF /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
 		B1667A628BE1F6C6599EEB5F /* Pods-Mechanism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mechanism.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mechanism/Pods-Mechanism.release.xcconfig"; sourceTree = "<group>"; };
 		C0AB6B9315BC12DBCBC665B1 /* Pods-Mechanism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mechanism.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mechanism/Pods-Mechanism.debug.xcconfig"; sourceTree = "<group>"; };
 		D0DB68C18D6700CAE08E6ABF /* libPods-Mechanism.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mechanism.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,6 +252,8 @@
 		5480C2CE1F6233CD00B276AF /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				5480C3671F6626C200B276AF /* NSString+Check.h */,
+				5480C3681F6626C200B276AF /* NSString+Check.m */,
 				5480C2CF1F6233F800B276AF /* UIColor+extension.h */,
 				5480C2D01F6233F800B276AF /* UIColor+extension.m */,
 				5480C2D21F62341200B276AF /* NSString+extension.h */,
@@ -484,6 +489,7 @@
 				5480C2BB1F622D7E00B276AF /* MCBaseViewController.m in Sources */,
 				5480C2BE1F622DAB00B276AF /* MCBaseBarController.m in Sources */,
 				5480C2DA1F624CD800B276AF /* DataAfn.m in Sources */,
+				5480C3691F6626C200B276AF /* NSString+Check.m in Sources */,
 				5480C3021F639D6600B276AF /* UIView+extension.m in Sources */,
 				5480C2FA1F63909600B276AF /* MCDynamicCell.m in Sources */,
 			);
